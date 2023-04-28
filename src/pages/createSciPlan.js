@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import styles from './styles/createSciplan.module.css'; 
+// import CSS file
 
 class CreateSciPlan extends Component {
     // ---------------------------------------------- CONSTRUCTOR----------------------------------------------------
@@ -134,29 +135,29 @@ class CreateSciPlan extends Component {
           <h1>GEMINI-6</h1>
         </header>
         <main>
-          <div className="container">
-            <div className="left">
+          <div className={styles.container}>
+            <div className={styles.left}>
               <h1>Create Science Plan</h1>
               <form>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="creator">Creator:</label>&nbsp;&nbsp;<br />
                   <input type="text" id="creator" name="creator" placeholder="Name" value={this.state.creator} onChange={this.handleChange}/>
                 </div>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="submitter">Submitter:</label>&nbsp;&nbsp;<br />
                   <input type="text" id="submitter" name="submitter" placeholder="Name" value={this.state.submitter} onChange={this.handleChange}/>
                 </div>
-                <div className="form-group">
-                  <label htmlFor="amount">Amount Funded And</label><label>&nbsp;Schedule:</label><br />
+                <div className={styles.formgroup}>
+                  <label htmlFor="amount">Amount Funded And</label><label>Schedule:</label><br />
                   <input type="number" id="fundingInUSD" name="amount" placeholder="Amount" value={this.state.fundingInUSD} onChange={this.handleChange}/>&nbsp;&nbsp;
                   <input type="date" id="startDate" name="startDate" value={this.state.startDate} onChange={this.handleChange}/>&nbsp;
                   <input type="date" id="endDate" name="endDate" value={this.state.endDate} onChange={this.handleChange}/>
                 </div>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="object">Objectives</label>&nbsp;&nbsp;<br />
                   <input type="text" id="objectives" name="objectives" placeholder="Objective" value={this.state.objectives} onChange={this.handleChange}/>
                 </div>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="star-system">Star System:</label>&nbsp;&nbsp;<br />
                   <select id="starSystem" name="starSystem" value={this.state.starSystem} onChange={this.handleChange}>
                     <option value="Andromeda" id="starSystem">Andromeda</option>
@@ -249,14 +250,16 @@ class CreateSciPlan extends Component {
                     <option value="Vulpecula" id="starSystem">Vulpecula</option>
                   </select>
                 </div>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="telescope-location">Telescope Location:</label>&nbsp;&nbsp;<br />
                   <input type="text" id="telescopeLocation" name="telescopeLocation" placeholder="Telescope Location"  value={this.state.telescopeLocation} onChange={this.handleChange}/>
                 </div>
               </form></div>
-            <div className="right">
+              <br />
+            <div className={styles.right}>
               <h2>Data Processing Requirement</h2>
-              <div className="form-group">
+              <br />
+              <div className={styles.formgroup}>
                 <label htmlFor="file-type">File Type:</label><br />
                 <select id="fileType" name="fileType"  value={this.state.fileType} onChange={this.handleChange}>
                   <option value="png" id="fileType" selected>PNG</option>
@@ -264,7 +267,7 @@ class CreateSciPlan extends Component {
                   <option value="raw" id="fileType">RAW</option>
                 </select>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="file-type">File Quality:</label>&nbsp;&nbsp;<br />
                 <select id="fileQuality" name="fileQuality"  value={this.state.fileQuality} onChange={this.handleChange}>
                   <option value="png" id="fileQuality" selected>Low</option>
@@ -272,59 +275,59 @@ class CreateSciPlan extends Component {
                 </select>
               </div>
               <h2>Image Processing</h2>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="mode">Mode:</label>&nbsp;&nbsp;<br />
                 <select id="colorType" name="colorType"  value={this.state.colorType} onChange={this.handleChange}>
                   <option value="bw" id="colorType" selected>B&amp;W</option>
                   <option value="color" id="colorType">Color</option>
                 </select>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="contrast">Contrast</label>&nbsp;&nbsp;<br />
                 <input type="text" id="contrast"name="contrst" min={0} max={50}  value={this.state.contrast} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="color">Brightness:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="brightness" name="bw" min={0} max={50}  value={this.state.brightness} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
-                <div className="form-group">
+                <div className={styles.formgroup}>
                   <label htmlFor="Saturation">Saturation:</label>&nbsp;&nbsp;<br />
                   <input type="text" id="saturation" min={0} max={50}  value={this.state.saturation} onChange={this.handleChange}/>
                   <output id="rangevalue">0-50</output>
                 </div>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="contrast">Highlights:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="highlights" min={0} max={50}  value={this.state.highlights} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Exposure:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="exposure" min={0} max={50}  value={this.state.exposure} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Shadows:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="shadows" min={0} max={50}  value={this.state.shadows} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Whites:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="whites" min={0} max={50}  value={this.state.white} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Blacks:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="blacks" min={0} max={50}  value={this.state.blacks} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Luminance:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="luminance" min={0} max={50} />
                 <output id="rangevalue">0-50</output>
               </div>
-              <div className="form-group">
+              <div className={styles.formgroup}>
                 <label htmlFor="brightness">Hue:</label>&nbsp;&nbsp;<br />
                 <input type="text" id="hue" min={0} max={50}  value={this.state.hue} onChange={this.handleChange}/>
                 <output id="rangevalue">0-50</output>
