@@ -1,0 +1,153 @@
+*{
+    font-family: 'poppins', sans-serif;
+    /* color: white; */
+}
+
+body{
+    background-image: url('../image/image.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 20px;
+}
+  
+
+.navbar-logo {
+    flex: 1;
+}
+
+.navbar-logo h1{
+    font-size: 24px;
+    
+}
+     
+.navbar-logout {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.navbar-logout button {
+    background-color: #FF0E0E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.navbar-logout button:hover {
+    background-color: white;
+    color: #FF0E0E;   
+}
+.container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 80px;
+    height: 95vh;
+}
+.text-input{
+    width: 75%;
+    height: 40px;
+    border-radius: 24px;
+    padding-left: 20px;
+    color: black;
+}
+
+.slider_BW, .slider_color, .slider_contrast, .slider_brightness, .slider_saturation{
+    width: 65%;
+}
+
+.column-left{
+    flex:1;
+    padding-right: 20px;
+}
+
+.column-right{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    color: black;   
+}
+
+.row input{
+    height: 32px;
+    border-radius: 24px;
+    padding-left: 20px;
+    height: 40px;
+    color: black;
+}
+
+
+
+.schedule{
+    padding-left: 32px;
+}
+
+select , option{
+    color: black;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.file-q{
+    padding-left: 32px;
+}
+
+.button-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
+
+.submit-button{
+    background-color: green;
+    color: white;
+    border-radius: 24px;
+    height: 55px;
+    width: 10%;
+    font-size: 20px; 
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: green;
+}
+
+.Science_Plan{
+    margin-left: 80px;
+}
+
+
+#star-system{
+    width: 80%;
+    height: 44px;
+    color: black;
+
+}
+
+#colorType{
+    width: 60%;
+}

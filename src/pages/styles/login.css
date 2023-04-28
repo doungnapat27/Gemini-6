@@ -1,0 +1,111 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-image: url('/public/static/BG.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.top{
+    margin-bottom: 48px;
+}
+
+header{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 24px;
+}
+
+.top span{
+    color: #B3B3B3;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 2px 0px 0px 0px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.input-field input{
+    height: 55px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #ABABAB;
+    font-size: 16px;
+    border-radius: 123px;
+    box-sizing: border-box;
+    color: white;;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.submit input{
+    height: 55px;
+    width: 100%;
+    background-color: #6200EA;
+    font-size: 16px;
+    border-radius: 123px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 32px;
+    border: none;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.remember{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.remember label{
+    color: #ABABAB;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.signup{
+    margin-top: 64px;
+    font-size: 16px;
+    color: #ABABAB;
+    display: flex;
+    justify-content: center;
+    font-weight:lighter;;
+}
+
+.signup a{
+    color: #ABABAB;
+    margin-left: 5px;
+    font-weight: bold;
+}

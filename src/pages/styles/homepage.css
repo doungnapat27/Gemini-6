@@ -1,0 +1,128 @@
+*{
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url('../img/HomePage.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 20px;
+}
+  
+
+.navbar-logo {
+    flex: 1;
+}
+
+.navbar-logo h1{
+    font-size: 24px;
+    
+}
+   
+.navbar-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    text-decoration:underline;
+    transform: scale(1.1);
+}
+  
+
+.navbar-logout {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.navbar-logout button {
+    background-color: #FF0E0E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.navbar-logout button:hover {
+    background-color: white;
+    color: #FF0E0E;   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin-top: 32px;
+  }
+  
+.box {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 16px;
+    text-align: center;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px 0 rgba(33, 38, 109, 0.37);
+    background: linear-gradient(180deg, #FFFFFF -27.67%, #000000 147.98%);
+    padding: 20px;
+}
+
+.box img {
+    width: 25%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-right: 8px;
+}
+  
+.box h2 {
+    font-size: 32px;
+    color: black;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    text-decoration:underline;
+    color: black;
+    background: #FFFFFF;
+}
+
+  

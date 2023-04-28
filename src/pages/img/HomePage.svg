@@ -1,0 +1,42 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_99_2)">
+        <rect width="1440" height="1024" fill="url(#paint0_linear_99_2)"/>
+        <g opacity="0.6">
+            <rect x="570.431" y="263.818" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="892.157" y="821.81" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="1103.58" y="164.736" width="22.9805" height="26.0744" rx="11.4902" fill="white"/>
+            <rect x="177" y="852" width="16" height="16" rx="8" transform="rotate(180 177 852)" fill="white"/>
+            <rect x="189" y="530" width="5" height="5" rx="2.5" fill="white"/>
+            <rect x="-4.08105" y="263.818" width="22.9805" height="26.0744" rx="11.4902" fill="white"/>
+            <rect x="455.529" y="748.802" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="694.525" y="451.554" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="974.887" y="529.777" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="1250.65" y="868.744" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="1126.56" y="571.496" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="1324.19" y="456.769" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="1126.56" y="357.686" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+            <rect x="708.314" y="628.86" width="4.5961" height="5.21488" rx="2.29805" fill="white"/>
+        </g>
+        <g filter="url(#filter0_f_99_2)">
+            <path d="M1030.1 172.099C967.762 146.168 899.544 135.669 831.791 141.577C764.039 147.484 698.95 169.607 642.575 205.89C586.199 242.172 540.368 291.436 509.341 349.102C478.313 406.768 463.096 470.965 465.105 535.725C467.114 600.485 486.282 663.707 520.829 719.514C555.377 775.321 604.181 821.902 662.705 854.926C721.23 887.951 787.576 906.347 855.576 908.406C923.576 910.465 991.023 896.119 1051.65 866.701L898.095 579.627C888.297 584.381 877.397 586.7 866.407 586.367C855.417 586.034 844.695 583.061 835.236 577.724C825.778 572.386 817.89 564.858 812.307 555.839C806.724 546.82 803.626 536.602 803.301 526.136C802.977 515.67 805.436 505.295 810.45 495.975C815.465 486.656 822.872 478.694 831.983 472.83C841.094 466.966 851.613 463.391 862.563 462.436C873.513 461.481 884.538 463.178 894.613 467.369L1030.1 172.099Z" fill="url(#paint1_radial_99_2)" fill-opacity="0.6"/>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_f_99_2" x="264.929" y="-60.0247" width="986.718" height="1168.62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_99_2"/>
+        </filter>
+        <linearGradient id="paint0_linear_99_2" x1="222.5" y1="138" x2="1681.5" y2="1228" gradientUnits="userSpaceOnUse">
+            <stop/>
+            <stop offset="1" stop-color="#080516"/>
+        </linearGradient>
+        <radialGradient id="paint1_radial_99_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(671.517 524.765) rotate(-0.138667) scale(600.544 571.893)">
+            <stop stop-color="#4F1ABE"/>
+            <stop offset="1" stop-color="#24214B" stop-opacity="0"/>
+        </radialGradient>
+        <clipPath id="clip0_99_2">
+            <rect width="1440" height="1024" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
